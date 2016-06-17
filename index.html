@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
+
+    <title>Chessboard</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+
+
+  <body>
+
+    <div class="main">
+
+        <header>
+        <h1>Chessboard</h1>
+        </header>
+
+          <div class="chessboard-container">
+
+<!--   R0W 8  -->
+<div class="row8" id="not-b-pawns">
+
+          <div id="box" class="light" id="8a">
+            <!-- <input type="checkbox" id="1a"> -->
+            <label class="card" for="a">
+              <div class="chess-piece" id="b-rook-l">&#9820;</div><!-- black rook-left -->
+            </label>
+          </div>
+
+          <div id="box" id="8b">
+            <!-- <input type="checkbox" id="1b"> -->
+            <label class="card" for="b">
+              <div class="chess-piece" id="b-knight-l">&#9822;</div><!-- black knight-left -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="8c">
+            <!-- <input type="checkbox" id="1c"> -->
+            <label class="card" for="c">
+              <div class="chess-piece" id="b-bishop-l">&#9821;</div><!-- black bishop-left-->
+
+
+           </label>
+          </div>
+
+          <div id="box" id="8d">
+            <!-- <input type="checkbox" id="1d"> -->
+            <label class="card" for="d">
+              <div class="chess-piece" id="b-queen">&#9819;</div><!-- black queen -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="8e">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="e">
+            <div class="chess-piece" id="b-king">&#9818;</div><!-- black king -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="8f">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="f">
+              <div class="chess-piece" id="b-bishop-r">&#9821;</div><!-- black bishop-right -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="8g">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="b-knight-r">&#9822;</div><!-- black knight-right -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="8h">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="h">
+              <div class="chess-piece" id="b-rook-r">&#9820;</div><!-- black rook-right -->
+
+
+            </label>
+          </div>
+        </div>
+
+<!--  END OF ROW 8 -->
+
+<!--   R0W 7  -->
+<div class="row7">
+
+          <div id="box" id="7a">
+            <!-- <input type="checkbox" id="1a"> -->
+            <label class="card" for="a">
+              <div class="chess-piece" id="blk-p-a">&#9823;</div><!-- black pawn-a -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="7b">
+            <!-- <input type="checkbox" id="1b"> -->
+            <label class="card" for="1b">
+              <div class="chess-piece" id="blk-p-b">&#9823;</div><!-- black pawn-b -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="7c">
+            <!-- <input type="checkbox" id="1c"> -->
+            <label class="card" for="c">
+              <div class="chess-piece" id="blk-p-c">&#9823;</div><!-- black pawn-c -->
+
+
+           </label>
+          </div>
+
+          <div id="box" id="7d">
+            <!-- <input type="checkbox" id="1d"> -->
+            <label class="card" for="d">
+            <div class="chess-piece" id="blk-p-d">&#9823;</div><!-- black pawn-d -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="7e">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="e">
+              <div class="chess-piece" id="blk-p-e">&#9823;</div><!-- black pawn-e -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="7f">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="f">
+              <div class="chess-piece" id="blk-p-a">&#9823;</div><!-- black pawn-f -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="7g">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="g">
+              <div class="chess-piece" id="blk-p-g">&#9823;</div><!-- black pawn-g -->
+
+
+            </label>
+          </div>
+
+          <div id="box" id="7h">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="h">
+              <div class="chess-piece" id="blk-p-h">&#9823;</div><!-- black pawn-h -->
+
+
+            </label>
+          </div>
+        </div>
+
+
+<!--  END OF ROW 7 -->
+
+<!--   R0W 6 -->
+<div class="row6">
+
+          <div id="box"  id="6a">
+            <!-- <input type="checkbox" id="1a"> -->
+            <label class="card" for="a">
+                <div class="chess-piece" id="#">6a</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="6b">
+            <!-- <input type="checkbox" id="1b"> -->
+            <label class="card" for="1b">
+              <div class="chess-piece" id="#">6b</div>
+
+
+            </label>
+          </div>
+
+          <div id="box"id="6c">
+            <!-- <input type="checkbox" id="1c"> -->
+            <label class="card" for="1c">
+              <div class="chess-piece" id="#">6c</div>
+
+
+           </label>
+          </div>
+
+          <div id="box" id="6d">
+            <!-- <input type="checkbox" id="1d"> -->
+            <label class="card" for="1d">
+            <div class="chess-piece" id="#">6d</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="6e">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="#">6e</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="6f">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">6f</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="6g">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="#">6g</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="6h">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="#">6h</div>
+
+
+            </label>
+          </div>
+        </div>
+
+<!--  END OF ROW 6 -->
+
+<!--   R0W 5  -->
+<div class="row5">
+
+          <div id="box"  id="5a">
+            <!-- <input type="checkbox" id="1a"> -->
+            <label class="card" for="1a">
+              <div class="chess-piece" id="#">5a</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="5b">
+            <!-- <input type="checkbox" id="1b"> -->
+            <label class="card" for="1b">
+              <div class="chess-piece" id="#">5b</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="5c">
+            <!-- <input type="checkbox" id="1c"> -->
+            <label class="card" for="1c">
+              <div class="chess-piece" id="#">5c</div>
+
+
+           </label>
+          </div>
+
+          <div id="box" id="5d">
+            <!-- <input type="checkbox" id="1d"> -->
+            <label class="card" for="1d">
+              <div class="chess-piece" id="#">5d</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="5e">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">5e</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="5f">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">5f</div>
+
+
+            </label>
+          </div>
+
+          <div id="box"id="5g">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">5g</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="5h">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">5h</div>
+
+
+            </label>
+          </div>
+        </div>
+
+
+<!--  END OF ROW 5 -->
+
+<!--   R0W 4  -->
+<div class="row4">
+
+          <div id="box"  id="4a">
+            <!-- <input type="checkbox" id="1a"> -->
+            <label class="card" for="1a">
+            <div class="chess-piece" id="#">4a</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="4b">
+            <!-- <input type="checkbox" id="1b"> -->
+            <label class="card" for="1b">
+            <div class="chess-piece" id="#">4b</div>
+
+
+            </label>
+          </div>
+
+          <div id="box" id="4c">
+            <!-- <input type="checkbox" id="1c"> -->
+            <label class="card" for="1c">
+            <div class="chess-piece" id="#">4c</div>
+
+
+           </label>
+          </div>
+
+          <div id="box" id="4d">
+            <!-- <input type="checkbox" id="1d"> -->
+            <label class="card" for="1d">
+            <div class="chess-piece" id="#">4d</div>
+
+
+            </label>
+          </div>
+
+          <div id="box"id="4e">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">4e</div>
+
+
+            </label>
+          </div>
+
+          <div id="box"id="4f">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">4f</div>
+
+
+            </label>
+          </div>
+
+          <div id="box"id="4g">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">4g</div>
+
+
+            </label>
+          </div>
+
+          <div id="box"id="4h">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">4h</div>
+
+
+            </label>
+          </div>
+        </div>
+
+
+<!--  END OF ROW 4 -->
+
+<!--   R0W 3  -->
+<div class="row3">
+
+          <div id="box"  id="3a">
+            <!-- <input type="checkbox" id="1a"> -->
+            <label class="card" for="1a">
+            <div class="chess-piece" id="#">3a</div>
+
+            </label>
+          </div>
+
+          <div id="box"id="3b">
+            <!-- <input type="checkbox" id="1b"> -->
+            <label class="card" for="1b">
+            <div class="chess-piece" id="#">3b</div>
+
+
+            </label>
+          </div>
+
+          <div id="box"id="3c">
+            <!-- <input type="checkbox" id="1c"> -->
+            <label class="card" for="1c">
+            <div class="chess-piece" id="#">3c</div>
+
+           </label>
+          </div>
+
+          <div id="box"id="3d">
+            <!-- <input type="checkbox" id="1d"> -->
+            <label class="card" for="1d">
+            <div class="chess-piece" id="#">3d</div>
+
+            </label>
+          </div>
+
+          <div id="box"id="3e">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">3e</div>
+
+            </label>
+          </div>
+
+          <div id="box"id="3f">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">3f</div>
+
+            </label>
+          </div>
+
+          <div id="box"id="3g">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">3g</div>
+
+            </label>
+          </div>
+
+          <div id="box"id="3h">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="#">3h</div>
+
+            </label>
+          </div>
+        </div>
+
+<!--  END OF ROW 3 -->
+
+<!--   R0W 2  -->
+<div class="row2">
+
+          <div id="box"  id="">
+            <!-- <input type="checkbox" id="1a"> -->
+            <label class="card" for="1a">
+            <div class="chess-piece" id="w-pawn">&#9817;</div><!-- w-pawn -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1b"> -->
+            <label class="card" for="1b">
+              <div class="chess-piece" id="w-pawn">&#9817;</div><!-- w-pawn -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1c"> -->
+            <label class="card" for="1c">
+              <div class="chess-piece" id="w-pawn">&#9817;</div><!-- w-pawn -->
+
+           </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1d"> -->
+            <label class="card" for="1d">
+            <div class="chess-piece" id="w-pawn">&#9817;</div><!-- bw-pawn -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="w-pawn">&#9817;</div><!-- w-pawn -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="w-pawn">&#9817;</div><!-- w-pawn -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+            <div class="chess-piece" id="w-pawn">&#9817;</div><!-- w-pawn -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="w-pawn">&#9817;</div><!-- white pawn -->
+            </label>
+          </div>
+        </div>
+
+<!--   END OF ROW 2 -->
+
+<!--   R0W 1  -->
+<div class="row1">
+
+          <div id="box"  id="">
+            <!-- <input type="checkbox" id="1a"> -->
+            <label class="card" for="1a">
+              <div class="chess-piece" id="w-rook-l">&#9814;</div><!-- white rook left -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1b"> -->
+            <label class="card" for="1b">
+              <div class="chess-piece" id="w-knight-l">&#9816;</div><!-- white knight left -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1c"> -->
+            <label class="card" for="1c">
+              <div class="chess-piece" id="w-bishop-l">&#9815;</div><!-- white bishop left-->
+
+           </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1d"> -->
+            <label class="card" for="1d">
+                <div class="chess-piece" id="w-queen">&#9813;</div><!-- white queen -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="w-king">&#9812;</div><!-- white king  -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="w-bishop-r">&#9815;</div><!-- white bishop right -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="w-knight-r">&#9816;</div><!-- white knight-right -->
+
+            </label>
+          </div>
+
+          <div id="box">
+            <!-- <input type="checkbox" id="1e"> -->
+            <label class="card" for="1e">
+              <div class="chess-piece" id="w-rook-r">&#9814;</div><!-- white rook-right -->
+
+            </label>
+          </div>
+        </div>
+
+<!--   END OF ROW 1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div><!--  end of main div  -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
+
+
+
+            <!-- <div class="chessboard"> http://code2care.org/pages/chessboard-with-pieces-using-pure-html-and-css/
+<!-1st -->
+<!-- <div class="white">&#9820;</div>
+<div class="black">&#9822;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9819;</div>
+<div class="white">&#9818;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9822;</div>
+<div class="black">&#9820;</div>
+<!- 2nd -->
+<!-- <div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div> -->
+<!-- 3th -->
+<!-- <div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div> -->
+<!-- 4st -->
+<!-- <div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div> -->
+<!-- 5th -->
+<!-- <div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div> -->
+<!-- 6th -->
+<!-- <div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div> -->
+<!-- 7th -->
+<!-- <div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div> -->
+<!-- 8th -->
+<!-- <div class="black">&#9814;</div>
+<div class="white">&#9816;</div>
+<div class="black">&#9815;</div>
+<div class="white">&#9813;</div>
+<div class="black">&#9812;</div>
+<div class="white">&#9815;</div>
+<div class="black">&#9816;</div>
+<div class="white">&#9814;</div>  -->

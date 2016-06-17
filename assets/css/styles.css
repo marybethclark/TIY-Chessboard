@@ -1,0 +1,97 @@
+body{
+  width: 100%;
+}
+
+h1{
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+
+/*.main{
+  width: 100%;
+  /*margin: 0.5em 0em 5em 11em;*/
+  /*outline: 1px solid purple;
+}*/
+
+.chessboard-container{
+  margin: 2em 0em 2em 22em;
+  width: 64%;
+  /*border: 1px solid black;*/
+}
+
+/*.fa {
+  padding: 0.5em;
+}*/
+
+#box{
+outline: 1px solid red;
+ display:inline-block;
+ width: 4.5em;
+ height: 4.5em;
+ /*background: #0D313D;*/
+ /*border-radius: 15px;*/
+}
+
+.chess-piece{
+  font-size: 55px;
+  text-align: center;
+  margin-top: 18px;
+}
+.light{
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{}
+
+
+
+
+
+
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+/*@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, .span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
+}*/
+
+/*.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80wpx;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}*/
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
