@@ -2,12 +2,6 @@ body{
   width: 100%;
 }
 
-h1{
-  font-size: 20px;
-  color: red;
-  text-align: center;
-}
-
 /*.main{
   width: 100%;
   /*margin: 0.5em 0em 5em 11em;*/
@@ -19,14 +13,12 @@ h1{
   /*width: 64%;*/
   /*border: 1px solid black;*/
 }
-/*.fa {
-  padding: 0.5em;
-}*/
+
 .color1{
-  background-color: red;
+  background-color:#B4E0F7;
 }
 .color2{
-  background-color: pink;
+  background-color:#5EBDED;
 }
 .number-or-letter{
     font-size: 55px;
@@ -36,12 +28,11 @@ h1{
   }
 
 .box{
- outline: 1px solid red;
+ /*outline: 1px solid grey;*/
  display:inline-block;
  width: 4.5em;
  height: 4.5em;
- /*background: #0D313D;*/
- /*border-radius: 15px;*/
+
 }
 
 .chess-piece{
@@ -53,7 +44,29 @@ h1{
   background-color: yellow;
 
 }
-footer{}
+/**************  BUTTONS   ***********/
+ul{
+  margin-left: 40em;
+}
+
+li{
+  padding: 0.5em;
+  display:inline-block;
+}
+
+button{
+  background-color: #B4E0F7;
+  width: 3em;
+  border-radius: 2px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.move-back{
+background: #545657;
+transform: translateY(2in);
+}
 
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
