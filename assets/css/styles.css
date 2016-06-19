@@ -19,7 +19,6 @@ h1{
   /*width: 64%;*/
   /*border: 1px solid black;*/
 }
-
 /*.fa {
   padding: 0.5em;
 }*/
@@ -29,12 +28,11 @@ h1{
 .color2{
   background-color: pink;
 }
-
 .number-or-letter{
-    font-size: 25px;
+    font-size: 55px;
     text-align: center;
     margin-top: 18px;
-    color:grey;
+    color:#E2E6E8;
   }
 
 .box{
@@ -53,25 +51,9 @@ h1{
 }
 .light{
   background-color: yellow;
+
 }
-
-
-
-
-
-
-
-
-
-
-
 footer{}
-
-
-
-
-
-
 
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
